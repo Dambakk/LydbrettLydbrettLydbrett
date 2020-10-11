@@ -36,7 +36,6 @@ private val DarkColorPalette = darkColors(
 
 @Composable
 fun LydbrettTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable() () -> Unit) {
-
     MaterialTheme(
             colors = DarkColorPalette,
             typography = typography,
