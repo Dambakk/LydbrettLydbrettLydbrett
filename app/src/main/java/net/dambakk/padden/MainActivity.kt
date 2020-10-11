@@ -55,6 +55,7 @@ class MainActivity : AppCompatActivity() {
                             contentScale = ContentScale.FillWidth,
                             modifier = Modifier.fillMaxWidth().height(200.dp)
                         )
+                        Spacer(modifier = Modifier.height(5.dp))
                         PlayableItem(title = "Ugøy", sound = R.raw.ugoy)
                         PlayableItem(title = "Dagens", sound = R.raw.dagens)
                         PlayableItem(title = "Enig", sound = R.raw.enig)
@@ -87,13 +88,15 @@ fun PlayableItem(
     Card(
         backgroundColor = if (isPlaying.value) rrSecondary else MaterialTheme.colors.surface,
         modifier = modifier
-            .height(100.dp)
+            .height(80.dp)
             .width(cardWidth)
             .padding(horizontal = 20.dp)
-            .padding(top = 20.dp)
+            .padding(top = 8.dp)
             .clickable(onClick = {
-                isPlaying.value = true
-                mediaPlayer.start()
+                if (!isPlaying.value) {
+                    isPlaying.value = true
+                    mediaPlayer.start()
+                }
             })
     ) {
         Row(
