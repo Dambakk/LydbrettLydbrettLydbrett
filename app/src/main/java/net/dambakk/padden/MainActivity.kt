@@ -58,6 +58,7 @@ class MainActivity : AppCompatActivity() {
                         PlayableItem(title = "Ugøy", sound = R.raw.ugoy)
                         PlayableItem(title = "Dagens", sound = R.raw.dagens)
                         PlayableItem(title = "Enig", sound = R.raw.enig)
+                        PlayableItem(title = "Crazy callback", sound = R.raw.callback)
                     }
                 }
             }
