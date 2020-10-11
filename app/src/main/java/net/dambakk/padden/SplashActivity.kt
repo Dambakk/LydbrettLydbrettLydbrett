@@ -1,4 +1,4 @@
-package net.dambakk.lydbrett
+package net.dambakk.padden
 
 import android.content.Intent
 import android.os.Bundle

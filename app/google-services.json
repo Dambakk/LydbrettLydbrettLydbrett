@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1075012731960",
+    "firebase_url": "https://padden-padden-padden.firebaseio.com",
+    "project_id": "padden-padden-padden",
+    "storage_bucket": "padden-padden-padden.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075012731960:android:4b857f123fc0c26cd1d2cd",
+        "android_client_info": {
+          "package_name": "net.dambakk.padden"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075012731960-t8ps2q8nhp7uhsfbu03s7lpj9qjj33be.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.dambakk.padden",
+            "certificate_hash": "7c0ee283ebe0e5b6e72cc36bc261c2acc42b6a52"
+          }
+        },
+        {
+          "client_id": "1075012731960-0ii628g383egmtvha5ih624iofnqc4rd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwvaB4YsoHVFDkYZnz7Cdn8ZEEjzYclM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075012731960-0ii628g383egmtvha5ih624iofnqc4rd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,4 @@
-package net.dambakk.lydbrett
+package net.dambakk.padden
 
 import androidx.compose.animation.animatedFloat
 import androidx.compose.animation.core.AnimationConstants

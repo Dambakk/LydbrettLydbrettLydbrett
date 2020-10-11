@@ -1,4 +1,4 @@
-package net.dambakk.lydbrett
+package net.dambakk.padden
 
 import android.content.Context
 import android.view.View
@@ -7,30 +7,25 @@ import android.os.Bundle
 import androidx.annotation.RawRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.foundation.*
-import androidx.compose.foundation.gestures.ScrollableController
-import androidx.compose.foundation.gestures.scrollable
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.Button
 import androidx.compose.material.Card
 import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.WithConstraints
-import androidx.compose.ui.gesture.scrollorientationlocking.Orientation
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.ConfigurationAmbient
 import androidx.compose.ui.platform.ContextAmbient
 import androidx.compose.ui.platform.setContent
 import androidx.compose.ui.res.imageResource
 import androidx.compose.ui.unit.dp
-import net.dambakk.lydbrett.ui.LydbrettTheme
-import net.dambakk.lydbrett.ui.darkThemeSurface
-import net.dambakk.lydbrett.ui.rrSecondary
-import net.dambakk.lydbrett.ui.rrSecondaryLight
+import net.dambakk.padden.ui.LydbrettTheme
+import net.dambakk.padden.ui.darkThemeSurface
+import net.dambakk.padden.ui.rrSecondary
+import net.dambakk.padden.ui.rrSecondaryLight
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

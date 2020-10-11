@@ -1,4 +1,4 @@
-package net.dambakk.lydbrett
+package net.dambakk.padden
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package net.dambakk.lydbrett.ui
+package net.dambakk.padden.ui
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
