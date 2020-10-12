@@ -16,16 +16,14 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.ConfigurationAmbient
 import androidx.compose.ui.platform.ContextAmbient
 import androidx.compose.ui.platform.setContent
 import androidx.compose.ui.res.imageResource
 import androidx.compose.ui.unit.dp
-import net.dambakk.padden.ui.LydbrettTheme
-import net.dambakk.padden.ui.darkThemeSurface
-import net.dambakk.padden.ui.rrSecondary
-import net.dambakk.padden.ui.rrSecondaryLight
+import net.dambakk.padden.ui.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -62,7 +60,13 @@ class MainActivity : AppCompatActivity() {
                         PlayableItem(title = "Crazy callback", sound = R.raw.callback)
                         PlayableItem(title = "Jaddaa", sound = R.raw.jaddaa)
                         PlayableItem(title = "Norge, Norge, Norge", sound = R.raw.norge)
-                        Spacer(modifier = Modifier.height(100.dp))
+                        Spacer(modifier = Modifier.height(70.dp))
+                        Text(
+                            modifier = Modifier.padding(horizontal = 20.dp),
+                            text = "Denne appen har ingen tilknytning til NRK eller Radioresepsjonen, kun et hobbyprosjekt og en liten hunnør til RR i samme slengen 🎉",
+                            color = Color.White,
+                        )
+                        Spacer(modifier = Modifier.height(10.dp))
                     }
                 }
             }
