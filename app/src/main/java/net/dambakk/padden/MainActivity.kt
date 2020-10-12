@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
                         Spacer(modifier = Modifier.height(70.dp))
                         Text(
                             modifier = Modifier.padding(horizontal = 20.dp),
-                            text = "Denne appen har ingen tilknytning til NRK eller Radioresepsjonen, kun et hobbyprosjekt og en liten hunnør til RR i samme slengen 🎉",
+                            text = "Denne appen har ingen tilknytning til NRK eller Radioresepsjonen, kun et hobbyprosjekt og en liten honnør til RR i samme slengen 🎉",
                             color = Color.White,
                         )
                         Spacer(modifier = Modifier.height(10.dp))
